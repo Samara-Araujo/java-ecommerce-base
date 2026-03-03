@@ -1,0 +1,41 @@
+/* Estilo para o E-commerce da Samara */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    width: 300px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h2 { color: #333; margin-bottom: 10px; }
+
+p { font-size: 24px; color: #28a745; font-weight: bold; }
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover { background: #0056b3; }
