@@ -11,7 +11,7 @@
         System.out.println("Produto: " + meuProduto.nome);
         System.out.println("Preço Original: R$ " + meuProduto.preco);
 
-        // Chamando o método de desconto (igual as funções que você vê no JS)
+        // Chamando o método de desconto (igual as funções no JS)
         meuProduto.aplicarDesconto(10); // 10% de desconto
     }
 }

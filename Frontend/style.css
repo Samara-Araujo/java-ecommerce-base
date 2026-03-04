@@ -39,3 +39,14 @@ button {
 }
 
 button:hover { background: #0056b3; }
+input {
+    display: block;
+    margin: 0 auto 15px auto;
+    border: 2px solid #eee;
+    transition: border-color 0.3s;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff; /* Fica azul quando você clica para digitar */
+}
