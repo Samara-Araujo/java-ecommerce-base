@@ -1,5 +1,10 @@
 /* Estilo geral do corpo da página */
-body {
+.container {
+    display: flex;
+    gap: 20px; /* Espaço entre os cards */
+    justify-content: center;
+    flex-wrap: wrap; /* Para celular, um fica embaixo do outro */
+}body {
     font-family: sans-serif;
     display: flex;
     justify-content: center;

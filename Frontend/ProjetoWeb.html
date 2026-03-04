@@ -6,12 +6,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
     <div class="card">
         <h2>Teclado Mecânico</h2>
-        <p>R$ 250,00</p>
-        <input type="text" id="cupom" placeholder="CUPOM DE DESCONTO" 
-        <button onclick="comprar()">Adicionar ao Carrinho</button>
+        <p id="preco-teclado">R$ 250,00</p>
+        <input type="text" id="cupom-teclado" placeholder="CUPOM">
+        <button onclick="comprar('teclado')">Comprar</button>
     </div>
+
+    <div class="card">
+        <h2>Mouse Gamer</h2>
+        <p id="preco-mouse">R$ 150,00</p>
+        <input type="text" id="cupom-mouse" placeholder="CUPOM">
+        <button onclick="comprar('mouse')">Comprar</button>
+    </div>
+</div>
 
    <script src="script.js"></script>
 </body>
